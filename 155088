@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Activity 1 Adding Image to a Page - Nathaniel Basuel BS InfoTech 1B</title>
+     <style>
+     body {
+      background-color: black;
+      font-family: "Garamond", serif;
+      font-size: 30px;
+     }
+     img {
+       display: block;
+       padding: 30px;
+       background-color: #556072;
+     }
+     .container {
+        width: 80%;
+        margin: auto;
+        background-color: #939EAC;
+      }
+      h2 {
+        background-color: white;
+        color: #556072;
+        padding: 20px;
+        text-align: center;
+      }
+      header, footer {
+        background-color: #556072;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+     </style>
+  </head>
+  <body><center>
+    <div class="container">
+    <header>
+      <h1>Activity 1 Adding Image to a Page</h1>
+    </header><br>
+    <h2>First Image</h2>
+    <img src="p1.png"  style="width: 700px;height: 650px;"/>
+   <h2>Second Image</h2>
+    <img src="p2.png"  style="width: 700px;height: 650px;"/>
+   <h2>Third Image</h2>
+    <img src="p3.png"  style="width: 700px;height: 650px;"/>
+   <h2>Fourth Image</h2>
+    <img src="p4.png"  style="width: 700px;height: 650px;"/>
+   <h2>Fifth Image</h2>
+    <img src="p5.png"  style="width: 700px;height: 650px;"/><br>
+     <footer>
+       <p>Images for educational use only, no copyright infringement intended</p>
+     </footer>
+    </div>
+  </center></body>
+</html>
